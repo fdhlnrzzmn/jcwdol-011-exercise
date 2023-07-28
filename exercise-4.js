@@ -21,15 +21,13 @@ fizzBuzz(50);
 
 
 // Write a function to remove all odd numbers in an array and return a new array that contains even numbers only
-const removeOddNumbers = (n) => {
+const hapusAngkaGanjil = (n) => {
     let array = [];
     for(let i = 1; i <= n; i++) {
         array.push(i);
     }
     return array.filter((e) => e % 2 === 0);
 }
-console.info(removeOddNumbers(100));
-
-
+console.info(hapusAngkaGanjil(100));
 
 // Write a function to split a string and convert it into an array of words
