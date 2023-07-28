@@ -31,3 +31,7 @@ const hapusAngkaGanjil = (n) => {
 console.info(hapusAngkaGanjil(100));
 
 // Write a function to split a string and convert it into an array of words
+const pisahStringJadiArray = (str) => {
+    return str.split(" ");
+}
+console.info(pisahStringJadiArray("Hello World"));
