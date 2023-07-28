@@ -96,3 +96,4 @@ let kata = "An apple a day keeps the doctor away";
 let hasil = kata.replace(/a/gi, '*');
 console.info(hasil)
 }
+
