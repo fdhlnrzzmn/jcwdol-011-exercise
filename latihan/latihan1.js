@@ -1,4 +1,4 @@
-// soal 1
+// SOAL 1
 // string = "Pig latin is cool";
 // result = " igPay atinlay siay oolcay !ay"
 
@@ -14,7 +14,7 @@ function destroyString(str){
   console.info(destroyString("Pig latin is cool !"));
 
 
-// soal 2
+// SOAL 2
 // phone = [1,2,3,4,5,6,7,8,9];
 // hasil = "(123) 456-7890"
 
