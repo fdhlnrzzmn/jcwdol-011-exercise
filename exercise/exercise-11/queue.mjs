@@ -28,7 +28,7 @@ class Queue {
             let item = await this.deleteOrder();
             let time = Math.floor(Math.random() * 10) + 1;
             setTimeout(() => {
-                console.info(`Memproses Pesanan ${item} dalam ${time}`)
+                console.info(`Memproses Pesanan ${item} dalam ${time} detik`)
             }, time * 1000);
         }
     }
