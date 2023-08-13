@@ -66,6 +66,7 @@ Use Inheritance Concept */
     console.info(ace);
 }
 
+
 /* Specifications :
 Create a shooting game between two player
 Each player has three properties : name, health and power
@@ -88,3 +89,39 @@ In every turn :
 Show each player status before shooting
 Get random item for each player before shooting
 Show each player */
+
+class ShootingGame{
+    constructor(player1, player2){
+
+    }
+
+    getRandomItem(){
+        
+    }
+
+    start(){
+        
+    }
+
+}
+
+class Player{
+    constructor(name){
+        this.name = name;
+        this.health = 100;
+        this.power = 10;
+    }
+
+    hit(power){
+
+    }
+
+    useItem(item){
+
+    }
+
+    showStatus(){
+
+    }
+
+}
