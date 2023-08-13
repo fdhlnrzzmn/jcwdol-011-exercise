@@ -20,43 +20,50 @@ Use Inheritance Concept */
             this.workingHour = 0;
             this.salary = 0;
         }
+    }
     
+    class FullTime extends Employee{
+    
+        constructor(name){
+            super(name);
+        }
+
         addWorkingHour(hours){
             this.workingHour += hours;
         }
     
-    }
-    
-    class FulltimeEmployee extends Employee{
-    
-        constructor(name){
-            super(name);
-        }
-    
         countSalary(){
-            this.salary = this.workingHour < 6 ? this.workingHour * 75000 : this.workingHour * 100000;
+            this.salary = this.workingHour > 6 ? this.workingHour * 75000 : this.workingHour * 100000;
             return this.salary;
         }
     }
     
-    class ParttimeEmployee extends Employee{
+    class PartTime extends Employee{
         constructor(name){
             super(name);
         }
+
+        addWorkingHour(hours){
+            this.workingHour += hours;
+        }
     
         countSalary(){
-            this.salary = this.workingHour < 6 ? this.workingHour * 30000 : this.workingHour * 50000;
+            this.salary = this.workingHour > 6 ? this.workingHour * 30000 : this.workingHour * 50000;
             return this.salary;
         }
     }
     
-    const luffy = new FulltimeEmployee("Luffy");
+// Eksekusi
+
+    const luffy = new FullTime("Luffy");
     luffy.addWorkingHour(9);
-    console.info(`Luffy get ${luffy.countSalary()}`);
+    luffy.countSalary();
+    console.info(luffy);
     
-    const ace = new ParttimeEmployee("Ace");
+    const ace = new PartTime("Ace");
     ace.addWorkingHour(2);
-    console.info(`Ace get ${ace.countSalary()}`);
+    ace.countSalary();
+    console.info(ace);
 }
 
 /* Specifications :
