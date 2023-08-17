@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
     <h1>Create a component with styling like example output:</h1>
     <div class="card" style="margin-bottom: 50px;">
-        <img src="https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="gambar pantai" title="ini gambar pantai" width="400px" height="100px" class="beachImg">
+        <img src="./assets/img/pantai.png" alt="gambar pantai" title="ini gambar pantai" width="400px" height="100px" class="beachImg">
         <h1>Beaufitul!</h1>
         <p class="pBeach">Modal with a custom image</p>
         <button class="btnBeach">Lovely!</button>
@@ -20,7 +20,137 @@
 
     <h1>Create a table with data and styling like example output:</h1>
     <div class="table">
-
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        No.
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                    <th class="thPadding">
+                        Name
+                    </th>
+                    <th class="thPadding">
+                        Food
+                    </th>
+                    <th>Group</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>1</p>
+                    </td>
+                    <td>
+                        <img src="./assets/img/cat.png" alt="ini kucing" title="gambar kucing">
+                    </td>
+                    <td>
+                        <p>Smiling<sup>Cat</sup></p>
+                    </td>
+                    <td>
+                        <p>Healthy<sub>Fish</sub></p>
+                    </td>
+                    <td style="font-weight: bold;">
+                        <label for="vertebrate">
+                            <input type="radio" checked id="vertebrate">Vertebrate
+                        </label>
+                        <label for="invertebrate">
+                            <input type="radio" id="invertebrate">Invertebrate
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>2</p>
+                    </td>
+                    <td>
+                        <img src="./assets/img/dog.png" alt="ini anjing" title="gambar anjing">
+                    </td>
+                    <td>
+                        <p>Happy<sup>Dog</sup></p>
+                    </td>
+                    <td>
+                        <p>Fresh<sub>Meat</sub></p>
+                    </td>
+                    <td style="font-weight: bold;">
+                        <label for="vertebrate">
+                            <input type="radio" checked id="vertebrate">Vertebrate
+                        </label>
+                        <label for="invertebrate">
+                            <input type="radio" id="invertebrate">Invertebrate
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>3</p>
+                    </td>
+                    <td>
+                        <img src="./assets/img/simpanse.png" alt="ini simpanse" title="gambar simpanse">
+                    </td>
+                    <td>
+                        <p>Confuse<sup>Simpanse</sup></p>
+                    </td>
+                    <td>
+                        <p>Sweet<sub>Banana</sub></p>
+                    </td>
+                    <td style="font-weight: bold;">
+                        <label for="vertebrate">
+                            <input type="radio" checked id="vertebrate">Vertebrate
+                        </label>
+                        <label for="invertebrate">
+                            <input type="radio" id="invertebrate">Invertebrate
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>4</p>
+                    </td>
+                    <td>
+                        <img src="./assets/img/jellyfish.png" alt="ini ubur-ubur" title="gambar ubur-ubur">
+                    </td>
+                    <td>
+                        <p>Frisky<sup>Jellyfish</sup></p>
+                    </td>
+                    <td>
+                        <p>Saltwater<sub>Plankton</sub></p>
+                    </td>
+                    <td style="font-weight: bold;">
+                        <label for="vertebrate">
+                            <input type="radio" id="vertebrate">Vertebrate
+                        </label>
+                        <label for="invertebrate">
+                            <input type="radio" checked id="invertebrate">Invertebrate
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>5</p>
+                    </td>
+                    <td>
+                        <img src="./assets/img/squid.png" alt="ini cumi-cumi" title="gambar cumi-cumi">
+                    </td>
+                    <td>
+                        <p>Swimming<sup>Squid</sup></p>
+                    </td>
+                    <td>
+                        <p>Small<sub>Fish</sub></p>
+                    </td>
+                    <td style="font-weight: bold;">
+                        <label for="vertebrate">
+                            <input type="radio"  id="vertebrate">Vertebrate
+                        </label>
+                        <label for="invertebrate">
+                            <input type="radio" checked id="invertebrate">Invertebrate
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 </body>
