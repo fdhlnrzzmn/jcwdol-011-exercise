@@ -4,154 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-    <h1>Create a component with styling like example output:</h1>
-    <div class="card" style="margin-bottom: 50px;">
-        <img src="./assets/img/pantai.png" alt="gambar pantai" title="ini gambar pantai" width="400px" height="100px" class="beachImg">
-        <h1>Beaufitul!</h1>
-        <p class="pBeach">Modal with a custom image</p>
-        <button class="btnBeach">Lovely!</button>
-    </div>
+    
+    <section class="slide" style="margin-bottom: 30px;">
+        <header">
+        <div style="display: flex;">
+            <div style="background-color: #5cb16f; width: 7px; height: 90px; position: relative; top: 20px; right: 30px;"></div>
+            <h1 class="h1" style="align-self: center;">Exercise</h1>
+            <img src="./assets/img/purwadhika.png" alt="logo purwadhika" title="logo purwadhika" height="30px" style="position:relative; left:62%; align-self: center;">
+        </div>
+        </header>
+        <hr>
+        <h2 class="h1" style="margin-bottom: 50px;">Create a component with styling like example output:</h2>
+        <div class="card" style="margin-bottom: 50px;">
+            <img src="./assets/img/pantai.png" alt="gambar pantai" title="ini gambar pantai" width="80%" height="100px" class="beachImg">
+            <h1>Beaufitul!</h1>
+            <p class="pBeach">Modal with a custom image</p>
+            <button class="btnBeach">Lovely!</button>
+        </div>
+    </section>
+    
 
-
-    <h1>Create a table with data and styling like example output:</h1>
-    <div class="table">
-        <table>
-            <thead>
-                <tr>
-                    <th>
-                        No.
-                    </th>
-                    <th>
-                        Image
-                    </th>
-                    <th class="thPadding">
-                        Name
-                    </th>
-                    <th class="thPadding">
-                        Food
-                    </th>
-                    <th>Group</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <p>1</p>
-                    </td>
-                    <td>
-                        <img src="./assets/img/cat.png" alt="ini kucing" title="gambar kucing">
-                    </td>
-                    <td>
-                        <p>Smiling<sup>Cat</sup></p>
-                    </td>
-                    <td>
-                        <p>Healthy<sub>Fish</sub></p>
-                    </td>
-                    <td style="font-weight: bold;">
-                        <label for="vertebrate">
-                            <input type="radio" checked id="vertebrate">Vertebrate
-                        </label>
-                        <label for="invertebrate">
-                            <input type="radio" id="invertebrate">Invertebrate
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>2</p>
-                    </td>
-                    <td>
-                        <img src="./assets/img/dog.png" alt="ini anjing" title="gambar anjing">
-                    </td>
-                    <td>
-                        <p>Happy<sup>Dog</sup></p>
-                    </td>
-                    <td>
-                        <p>Fresh<sub>Meat</sub></p>
-                    </td>
-                    <td style="font-weight: bold;">
-                        <label for="vertebrate">
-                            <input type="radio" checked id="vertebrate">Vertebrate
-                        </label>
-                        <label for="invertebrate">
-                            <input type="radio" id="invertebrate">Invertebrate
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>3</p>
-                    </td>
-                    <td>
-                        <img src="./assets/img/simpanse.png" alt="ini simpanse" title="gambar simpanse">
-                    </td>
-                    <td>
-                        <p>Confuse<sup>Simpanse</sup></p>
-                    </td>
-                    <td>
-                        <p>Sweet<sub>Banana</sub></p>
-                    </td>
-                    <td style="font-weight: bold;">
-                        <label for="vertebrate">
-                            <input type="radio" checked id="vertebrate">Vertebrate
-                        </label>
-                        <label for="invertebrate">
-                            <input type="radio" id="invertebrate">Invertebrate
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>4</p>
-                    </td>
-                    <td>
-                        <img src="./assets/img/jellyfish.png" alt="ini ubur-ubur" title="gambar ubur-ubur">
-                    </td>
-                    <td>
-                        <p>Frisky<sup>Jellyfish</sup></p>
-                    </td>
-                    <td>
-                        <p>Saltwater<sub>Plankton</sub></p>
-                    </td>
-                    <td style="font-weight: bold;">
-                        <label for="vertebrate">
-                            <input type="radio" id="vertebrate">Vertebrate
-                        </label>
-                        <label for="invertebrate">
-                            <input type="radio" checked id="invertebrate">Invertebrate
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>5</p>
-                    </td>
-                    <td>
-                        <img src="./assets/img/squid.png" alt="ini cumi-cumi" title="gambar cumi-cumi">
-                    </td>
-                    <td>
-                        <p>Swimming<sup>Squid</sup></p>
-                    </td>
-                    <td>
-                        <p>Small<sub>Fish</sub></p>
-                    </td>
-                    <td style="font-weight: bold;">
-                        <label for="vertebrate">
-                            <input type="radio"  id="vertebrate">Vertebrate
-                        </label>
-                        <label for="invertebrate">
-                            <input type="radio" checked id="invertebrate">Invertebrate
-                        </label>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <section class="slide">
+        <header">
+        <div style="display: flex;">
+            <div style="background-color: #5cb16f; width: 7px; height: 90px; position: relative; top: 20px; right: 30px;"></div>
+            <h1 class="h1" style="align-self: center;">Exercise</h1>
+            <img src="./assets/img/purwadhika.png" alt="logo purwadhika" title="logo purwadhika" height="30px" style="position:relative; left:62%; align-self: center;">
+        </div>
+        </header>
+        <hr>
+        <h2 class="h1">Create a table with data and styling like example output:</h2>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            No.
+                        </th>
+                        <th>
+                            Image
+                        </th>
+                        <th class="thPadding">
+                            Name
+                        </th>
+                        <th class="thPadding">
+                            Food
+                        </th>
+                        <th>Group</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>1</p>
+                        </td>
+                        <td>
+                            <img src="./assets/img/cat.png" alt="ini kucing" title="gambar kucing">
+                        </td>
+                        <td>
+                            <p>Smiling<sup>Cat</sup></p>
+                        </td>
+                        <td>
+                            <p>Healthy<sub>Fish</sub></p>
+                        </td>
+                        <td style="font-weight: bold;">
+                            <label for="vertebrate">
+                                <input type="radio" checked id="vertebrate">Vertebrate
+                            </label>
+                            <label for="invertebrate">
+                                <input type="radio" id="invertebrate">Invertebrate
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>2</p>
+                        </td>
+                        <td>
+                            <img src="./assets/img/dog.png" alt="ini anjing" title="gambar anjing">
+                        </td>
+                        <td>
+                            <p>Happy<sup>Dog</sup></p>
+                        </td>
+                        <td>
+                            <p>Fresh<sub>Meat</sub></p>
+                        </td>
+                        <td style="font-weight: bold;">
+                            <label for="vertebrate">
+                                <input type="radio" checked id="vertebrate">Vertebrate
+                            </label>
+                            <label for="invertebrate">
+                                <input type="radio" id="invertebrate">Invertebrate
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>3</p>
+                        </td>
+                        <td>
+                            <img src="./assets/img/simpanse.png" alt="ini simpanse" title="gambar simpanse">
+                        </td>
+                        <td>
+                            <p>Confuse<sup>Simpanse</sup></p>
+                        </td>
+                        <td>
+                            <p>Sweet<sub>Banana</sub></p>
+                        </td>
+                        <td style="font-weight: bold;">
+                            <label for="vertebrate">
+                                <input type="radio" checked id="vertebrate">Vertebrate
+                            </label>
+                            <label for="invertebrate">
+                                <input type="radio" id="invertebrate">Invertebrate
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>4</p>
+                        </td>
+                        <td>
+                            <img src="./assets/img/jellyfish.png" alt="ini ubur-ubur" title="gambar ubur-ubur">
+                        </td>
+                        <td>
+                            <p>Frisky<sup>Jellyfish</sup></p>
+                        </td>
+                        <td>
+                            <p>Saltwater<sub>Plankton</sub></p>
+                        </td>
+                        <td style="font-weight: bold;">
+                            <label for="vertebrate">
+                                <input type="radio" id="vertebrate">Vertebrate
+                            </label>
+                            <label for="invertebrate">
+                                <input type="radio" checked id="invertebrate">Invertebrate
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>5</p>
+                        </td>
+                        <td>
+                            <img src="./assets/img/squid.png" alt="ini cumi-cumi" title="gambar cumi-cumi">
+                        </td>
+                        <td>
+                            <p>Swimming<sup>Squid</sup></p>
+                        </td>
+                        <td>
+                            <p>Small<sub>Fish</sub></p>
+                        </td>
+                        <td style="font-weight: bold;">
+                            <label for="vertebrate">
+                                <input type="radio"  id="vertebrate">Vertebrate
+                            </label>
+                            <label for="invertebrate">
+                                <input type="radio" checked id="invertebrate">Invertebrate
+                            </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
 </body>
 </html>
