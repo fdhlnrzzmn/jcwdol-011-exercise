@@ -1,0 +1,38 @@
+.container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper{
+    color: black;
+    border: 1px solid white;
+    padding: 15px 16px;
+    background-color: white;
+}
+
+.wrapper h2{
+    font-size: 70px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+     color: white;
+}
+
+.table{
+    border: solid 1px;
+    margin-left:auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    }
+
+th, td{
+    border: solid 1px;
+    padding: 0 40px 0 40px;
+}

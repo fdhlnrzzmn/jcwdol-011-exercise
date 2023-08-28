@@ -25,7 +25,7 @@ const Home = () => {
               </div>
               <div className={style.exerciseList}>
                 <h2>Fetch</h2>
-                <button className={style.btn} onClick={tes}>Click Me</button>
+                <button className={style.btn}><Link to='/Fetch'>Click Me</Link></button>
               </div>
               <div className={style.exerciseList}>
                 <h2>Chat</h2>

@@ -39,3 +39,12 @@
     border-radius: 5px;
     font-size: 25px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+     color: white;
+}
