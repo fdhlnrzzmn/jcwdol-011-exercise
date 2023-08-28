@@ -1,0 +1,35 @@
+.container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.exercise-list{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 11px;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: grey;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
