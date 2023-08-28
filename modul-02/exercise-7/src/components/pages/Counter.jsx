@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import style from './counter.module.css'
 
@@ -21,6 +22,7 @@ return (
                 <h2>{count}</h2>
                 <button className={style.btnIncrease} onClick={increase}>+</button>
             </div>
+            <button className="btn" style={{marginTop:'20px'}}><Link to='/'>Home</Link></button>
         </div>
     </>
   )

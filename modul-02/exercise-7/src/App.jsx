@@ -1,41 +1,19 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import Home from './components/pages/Home'
+import Counter from './components/pages/Counter'
 
 function App() {
-
-  const tes = () => {
-    alert("Test!")
-  }
 
   return (
     <>
       <div className='container'>
-        <div>
-          <h1>Exercise 7 List</h1>
-          <div className='list'>
-            <div className='exercise-list'>
-              <h2>Counter</h2>
-              <button className='btn' onClick={tes}>Click Me</button>
-            </div>
-            <div className='exercise-list'>
-              <h2>Stop Watch</h2>
-              <button className='btn' onClick={tes}>Click Me</button>
-            </div>
-            <div className='exercise-list'>
-              <h2>Filter</h2>
-              <button className='btn' onClick={tes}>Click Me</button>
-            </div>
-            <div className='exercise-list'>
-              <h2>Fetch</h2>
-              <button className='btn' onClick={tes}>Click Me</button>
-            </div>
-            <div className='exercise-list'>
-              <h2>Chat</h2>
-              <button className='btn' onClick={tes}>Click Me</button>
-            </div>
-          </div>
-        </div>
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/Counter' element={<Counter />} />
+        </Routes> 
       </div>
-      
+                
     </>
   )
 }

@@ -5,6 +5,21 @@
     text-align: center;
 }
 
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.exerciseList{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 11px;
+}
+
 .btn{
     border: none;
     border-radius: 5px;
